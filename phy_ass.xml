@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assessment>
+  <assessment1>
+    <eyes>Normal</eyes>
+    <skin>Normal</skin>
+    <throat>Normal</throat>
+    <nails>Normal</nails>
+    <tongue>Normal</tongue>
+    <ear>Normal</ear>
+    <systolicbp>0</systolicbp>
+    <diastolicbp>0</diastolicbp>
+    <pulse_rate>0</pulse_rate>
+  </assessment1>
+</assessment>

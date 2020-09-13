@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CDSS-Admin</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+    .style1
+    {
+        width: 1090px;
+    }
+        .style5
+        {
+            width: 901px;
+        }
+        .style9
+        {
+            width: 92%;
+        }
+        .style10
+        {
+            width: 20%;
+        }
+        .style12
+        {
+            width: 75%;
+        }
+        .style13
+        {
+            width: 5%;
+        }
+        .style14
+        {
+            height: 0.75cm;
+            width: 544px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div style="width: 100%; height: 276px; clip: rect(auto, 100%, auto, auto);">
+       <asp:Image ID="Image2" runat="server" Height="190px" ImageUrl="~/4.bmp" 
+            Width="100%" />
+        
+        <asp:Image ID="Image3" runat="server" Height="19px" ImageUrl="~/line.png" 
+            Width="100%" />
+        
+        <table cellspacing="1" class="style5" style="width: 100%">
+            <tr style="width: 100%">
+                <td class="style12">
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Garamond" 
+            Font-Size="XX-Large" ForeColor="#006600" Text="Welcome Administrator"></asp:Label>
+                </td>
+                <td class="style13" align="center">
+                    <asp:LinkButton ID="LinkButton4" runat="server" Font-Bold="True" 
+                        Font-Names="Garamond" Font-Size="Large" ForeColor="#990099" 
+                        onclick="LinkButton4_Click">Home</asp:LinkButton>
+                </td>
+                <td align="center" class="style10" style="width: 35%">
+                 <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" 
+            Font-Names="Garamond" Font-Size="Large" ForeColor="#990099" 
+            onclick="LinkButton1_Click">Account Settings</asp:LinkButton>
+                    </td>
+                <td align="center" class="style9" style="width: 20%">
+                 <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" 
+            Font-Names="Garamond" Font-Size="Large" ForeColor="#990099" 
+            onclick="LinkButton2_Click">Logout</asp:LinkButton></td>
+            </tr>
+        </table>
+        
+        
+    <table class="style1">
+    <tr>
+        <td bgcolor="#FF6600" align="center" class="style14">
+            &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="True" 
+                Font-Names="Garamond" Font-Size="Large" ForeColor="#FFFF99" 
+                onclick="LinkButton3_Click">Add New User</asp:LinkButton>
+        </td>
+        <td bgcolor="#FF6600" align="center" class="style14">
+            <asp:LinkButton ID="LinkButton5" runat="server" Font-Bold="True" 
+                Font-Names="Garamond" Font-Size="Large" ForeColor="#FFFF99" 
+                onclick="LinkButton5_Click">DataBase Management</asp:LinkButton>
+        </td>
+        <td bgcolor="#FF6600" align="center" class="style14">
+            <asp:LinkButton ID="LinkButton6" runat="server" Font-Bold="True" 
+                Font-Size="Large" ForeColor="#FFFF99" onclick="LinkButton6_Click">News Uploading</asp:LinkButton>
+        </td>
+    </tr>
+</table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

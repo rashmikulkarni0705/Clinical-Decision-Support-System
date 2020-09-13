@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Diseases>
+  <Disease>
+    <no_symptoms>4</no_symptoms>
+    <symptom>Fever</symptom>
+    <symptom>Headache</symptom>
+    <symptom>Arthralgia</symptom>
+    <symptom>Anemia</symptom>
+    <DiseaseName>Malaria</DiseaseName>
+    <no_med>3</no_med>
+    <medicine>Cleocin</medicine>
+    <medicine>Aralin</medicine>
+    <medicine>Coartem</medicine>
+  </Disease>
+  <Disease>
+    <no_symptoms>4</no_symptoms>
+    <symptom>Chills</symptom>
+    <symptom>Vomitting</symptom>
+    <symptom>Loose Motions</symptom>
+    <symptom>Fever</symptom>
+    <DiseaseName>Food Poisoning</DiseaseName>
+    <no_med>1</no_med>
+    <medicine>Ampicillin</medicine>
+  </Disease>
+  <Disease>
+    <no_symptoms>5</no_symptoms>
+    <symptom>Chills</symptom>
+    <symptom>Fever</symptom>
+    <symptom>Rash</symptom>
+    <symptom>Weakness</symptom>
+    <symptom>Body Pain</symptom>
+    <DiseaseName>Chickenpox</DiseaseName>
+    <no_med>1</no_med>
+    <medicine>Crocin</medicine>
+    <lab>Blood Test</lab>
+    <lab>Allergy Test</lab>
+  </Disease>
+  <Disease>
+    <no_symptoms>3</no_symptoms>
+    <symptom>Pitted nails</symptom>
+    <symptom>Frequent Urination</symptom>
+    <symptom>Excessive Thirst</symptom>
+    <DiseaseName>Diabetes</DiseaseName>
+    <no_med>1</no_med>
+    <medicine>Insulin</medicine>
+    <lab>Allergy Test</lab>
+    <lab>Blood Test</lab>
+    <lab>Urine Test</lab>
+  </Disease>
+</Diseases>
